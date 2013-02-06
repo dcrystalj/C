@@ -1,0 +1,8 @@
+UTF-8 decoder capability and stress test
+----------------------------------------
+
+Markus Kuhn <http://www.cl.cam.ac.uk/~mgk25/> - 2003-02-19
+
+This test file can help you examine, how your UTF-8 decoder handles
+various types of correct, malformed, or otherwise interesting UTF-8
+sequences. This file is not meant to be a conformance test. It does

@@ -1,0 +1,54 @@
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/false
+mysql:x:102:105:MySQL Server,,,:/nonexistent:/bin/false
+sshd:x:103:65534::/var/run/sshd:/usr/sbin/nologin
+landscape:x:104:110::/var/lib/landscape:/bin/false
+uros:x:1000:1000:Uros Cibej,,,:/home/uros:/bin/bash
+jure:x:1001:1001:Jure Mihelic,,,:/home/jure:/bin/bash
+ocene:x:1002:1002::/home/ocene:/bin/bash
+aps:x:1003:1003::/home/aps:/bin/bash
+vilfan:x:1004:1004:Bostjan Vilfan,,,:/home/vilfan:/bin/bash
+messagebus:x:105:114::/var/run/dbus:/bin/false
+avahi:x:106:115:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+svn:x:1005:1005::/home/svn:/bin/bash
+tomaz:x:1006:1006::/home/tomaz:/bin/bash
+colord:x:107:116:colord colour management daemon,,,:/var/lib/colord:/bin/false
+lightdm:x:108:118:Light Display Manager:/var/lib/lightdm:/bin/false
+avahi-autoipd:x:109:120:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+usbmux:x:110:46:usbmux daemon,,,:/home/usbmux:/bin/false
+hplip:x:111:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+kernoops:x:112:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+pulse:x:113:122:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+rtkit:x:114:125:RealtimeKit,,,:/proc:/bin/false
+saned:x:115:126::/home/saned:/bin/false
+speech-dispatcher:x:116:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/sh
+spo:x:1007:1007::/home/spo:/bin/bash
+luka:x:1008:1008:,,,:/home/luka:/bin/bash
+algo12:x:1009:1009:,,,:/home/algo12:/bin/bash
+git:x:1010:1010::/home/git:/bin/bash
+ioi:x:1011:1011:,,,:/home/ioi:/bin/bash
+whoopsie:x:117:127::/nonexistent:/bin/false
+poletnasola:x:1012:1012::/home/poletnasola:/bin/bash
+matevz:x:1013:1013:,,,:/home/matevz:/bin/bash
+mitja:x:1014:1014::/home/mitja:/bin/bash
+matej:x:1015:1015:,,,:/home/matej:/bin/bash
+lxc-dnsmasq:x:118:128:LXC dnsmasq,,,:/var/lib/lxc:/bin/false
+gaoluser:x:1016:1016::/nonexistent:/bin/bash

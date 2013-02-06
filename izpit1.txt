@@ -1,0 +1,32 @@
+1. naloga
+Vrednost naloge: 15 točk
+Napišite funkcijo jeSamoglasnik, ki kot parameter prejme znak (char) in vrne 1, če je znak samoglasnik, in 0 sicer. Funkcija naj upošteva tako male kot velike črke, za preverjanje pa naj uporabi stavek switch. V funkciji main napiši zanko, ki bere znake iz tipkovnice in za vsak prebran samoglasnik izpiše 'DA', za ostale znake pa 'NE'. Zanka naj se konča, ko uporabnik vpiše znak 'X'.
+
+2. naloga
+Vrednost naloge: 15 točk
+ 
+Papajščina je jezik, ki ga dobimo iz slovenščine tako, da za vsakim samoglasnikom X vrinemo dvočrkovni zlog 'PX'. Primer: slovenski stavek 'Danes je lep dan' se v papajščini glasi takole: 'Dapanepes jepe lepep dapan'. Napiši funkcijo 
+
+     void vPapajscino(char *niz, char *papaNiz)
+
+ki v papaNiz zapiše papajsko verzijo podanega niza niz. V funkciji main iz tipkovnice preberi niz (ta lahko vsebuje tudi presledke, skupaj največ 100 znakov) in ga s pomočjo funkcije vPapajscino pretvori v papajščino ter prevod izpiši na zaslon.  Za spremenljivko, v kateri boš hranil prevod rezerviraj natanko toliko prostora, kolikor ga potrebuješ.
+
+3. naloga
+Vrednost naloge: 15 točk
+V datoteki slovar.txt so zapisane angleške besede in njihovi prevodi. Primer datoteke slovar.txt
+
+6
+water voda
+chair stol
+sun sonce
+computer racunalnik
+star zvezda
+pencil svincnik
+
+(prva vrstica datoteke podaja število besed, vse naslednje pa vsebujejo po eno besedo in njen prevod).
+
+Napiši funkcijo preberiSlovar, ki prebere vsebino datoteke v primerno podatkovno strukturo. Upoštevate lahko, da so besede in njihovi prevodi krajši od 20 znakov.  Napiše tudi funkcijo preberiInPrevedi, ki iz tipkovnice prebere angleško besedo in izpiše njen prevod; če prevoda te besede ni v slovarju, naj funkcija izpiše 'Te besede ne poznam'. Na koncu vse skupaj sestavi v delujoč program (v main funkciji pravilno kliči napisane funkcije).
+
+4. naloga
+Vrednost naloge: 15 točk
+Dvodimenzionalno tabelo velikosti n * n, pri čemer je n vrednost prvega argumenta ob klicu programa, napolni z naključnimi števili od 1 do 100. Nato seštej in izpiši vsoto elementov na glavni diagonali.
